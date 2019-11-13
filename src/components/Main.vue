@@ -5,14 +5,13 @@
 </template>
 
 <script>
-import Main from '@/components/Main' 
-
 export default {
-  name: 'app',
-  components: Main
+  name: 'Main'
 }
 </script>
 
-<style>
-
+<style scoped>
+a {
+  color: #42b983;
+}
 </style>
