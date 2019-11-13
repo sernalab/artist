@@ -1,24 +1,29 @@
 <template>
   <div id="app">
-    <h1>Hi! I'm <a href="https://www.instagram.com/albfs/ " target="_blank">Alba</a>, an artist based in <a href="https://www.instagram.com/wearecontracollective/" target="_blank">Barcelona</a></h1>
+    <Main />
+    <Footer />
   </div>
 </template>
 
 <script>
+import Footer from '@/components/Footer' 
 
 export default {
-  name: 'app'
+  name: 'app',
+  components: Footer
 }
 </script>
 
 <style>
-body {
-  background-image:url(./assets/alba.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
+html {
+  background: url(./assets/alba.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
@@ -34,8 +39,13 @@ h1 {
     width: 50%;
     font-size: 4rem !important;
 }
+@media (min-width: 700px) { 
+  h1 {
+    font-size: 2rem !important;
+  }
+}
 
 a {
-  color: #42b983;
+  color: #42b983 !important;
 }
 </style>
