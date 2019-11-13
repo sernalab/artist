@@ -14,4 +14,8 @@ export default {
 a {
   color: #42b983;
 }
+
+.main-text {
+  
+}
 </style>
