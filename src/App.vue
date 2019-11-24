@@ -16,8 +16,5 @@ export default {
 </script>
 
 <style src="./assets/styles.css" lang="css">
-#app {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-}
+
 </style>
