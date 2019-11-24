@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="text-center cover-container d-flex w-100 h-100 mx-auto flex-column">
     <Main />
     <Footer />
   </div>
