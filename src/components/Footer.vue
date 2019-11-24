@@ -2,7 +2,7 @@
   <div class="footer mt-auto mb-2">
     <ul class="d-flex">
         <li>
-          <a href="">Patreon</a>
+          <a href="" id="patreon">Patreon</a>
         </li>
         <li>
           <a href="">Collaborations</a>
@@ -25,6 +25,10 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+#patreon {
+  color: #b94242;
 }
 
 a, a:hover {
